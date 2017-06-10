@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*import google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Walter+Turncoat');
+
+body {
+    background-image: url('../images/background/cloudy-day.png');
+}
+
+.rock {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: 'Walter Turncoat', cursive;
+}
+
+.page-title {
+    font-size: 400%;
+}
+
+.header {
+    background-color: orange;
+    color: white;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.main-content {
+    background-color: #f9e6cc;
+    padding: 30px;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
+.main-content>p {
+    color: green;
+    font-weight: bold;
+}
+
+.random-digit {
+    background-color: #36BA6E;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
+.random-digit>p {
+    font-size: 120%;
+    color: black;
+}
+
+.score-board {
+    background-color:#ADDDDB;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
+.rock-img-container {
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
+.total {
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    background-color: #00847d;
+    color: white;
+}
+
+.random-digit>p,
+.score-board>p,
+.total>p {
+    padding-top: 10px;
+}
