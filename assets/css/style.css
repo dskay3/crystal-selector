@@ -74,3 +74,11 @@ p {
 .total>p {
     padding-top: 10px;
 }
+
+img:hover {
+    border: 2px solid red;
+}
+
+img:active {
+    opacity: 0.5;
+}

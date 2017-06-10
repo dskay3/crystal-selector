@@ -53,7 +53,7 @@ function wins() {
     if (counter === randomNumber) {
         win++;
         $("#winNum").text(win);
-        alert("Winner! Press Okay to play again!");
+        alert("Winner! Your total score was " + counter + ". Press Okay to play again!");
         reset();
     }
 }
@@ -63,7 +63,7 @@ function losses() {
     if (counter > randomNumber) {
         loss++;
         $("#lossNum").text(loss);
-        alert("Sorry, you lost! Your score was " + counter + ". You were over by " + (counter - randomNumber) + ". Press Okay to play again!");
+        alert("Sorry, you lost! Your total score was " + counter + ". You were over by " + (counter - randomNumber) + ". Press Okay to play again!");
         reset();
     }
 }
