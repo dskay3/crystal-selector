@@ -5,6 +5,7 @@ The objective of this web application is to allow the user to match a randomly g
 ## Instructions
 
 In order to run this web application, please clone or save the repository and double click the `index.html` file.
+You can also view the live application by visiting the following link: [Crystal Selector](https://dskay3.github.io/crystal-selector/)
 
 ## Basic Information
 
@@ -23,4 +24,4 @@ The purpose of this application is to familiarize myself with html, css, and van
 
 ## Demo
 
-![demo](/screenshots/crystal-game.png)
+[![demo](/screenshots/crystal-game.png)](https://dskay3.github.io/crystal-selector/)
